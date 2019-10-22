@@ -14,10 +14,40 @@ h2, h3{
 
 html{
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 body{
     font-family: 'HelveticaNeue-Thin';
 }
+
+/* BACK TO TOP */
+#back-to-top{
+    display: block;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    height: 6.4rem;
+    width: 6.4rem;
+    background-color: #f55150;
+    color: white;
+    font-size: 2.4rem;
+    border: none;
+    border-radius: 1rem;
+    outline: none;
+    transition: 0.5s;
+    z-index: 99;
+    transform: translateX(10rem);
+}
+
+#back-to-top.active{
+    transform: translateX(0);
+}
+
+#back-to-top.active:hover{
+    background-color: #e74c3c;
+    padding-bottom: 1rem;
+}
+
 
 /* INTRODUCTION */
 #introduction {
@@ -270,6 +300,9 @@ body{
 @media screen and (max-width: 768px){
     html{
         font-size: 50%;
+    }
+    #back-to-top{
+        bottom: 5rem;
     }
     #nose{
         background-size: cover;
