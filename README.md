@@ -2,8 +2,9 @@
 
 # Link Demo:
 https://fe-mobileapp.herokuapp.com/
-# Project practive cut psd to HTML with BEM style, animation, responsive.
-
+# Description
+This is project to practive cut psd to HTML with BEM style, animation, responsive.
+You can see file design in folder psd.
 ![Design preview for this project](./psd/layout.png)
 
 ## Building your project
